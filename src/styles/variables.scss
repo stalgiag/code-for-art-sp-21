@@ -2,8 +2,9 @@
 
 $primary-font-family: "Karik";
 
-$primary-color: #1dac8d;
+$primary-color: #ffd000;
 $secondary-color: adjust-hue($primary-color, 60);
+$tertiary-color: adjust-hue($primary-color, 180);
 
 $primary-color-dark: color.scale($primary-color, $lightness: -30%);
 $primary-color-darker: color.scale($primary-color, $lightness: -60%);

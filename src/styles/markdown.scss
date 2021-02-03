@@ -12,13 +12,16 @@
 
 .markdown-content {
     padding: 4rem 4rem 0rem 6rem;
-    color: $primary-color-darker;
+    color: $primary-color-darkest;
     li {
-        color: indigo;
+        color: $primary-color-darkest;
         list-style-type: circled-alpha;
         margin-bottom: 5px;;
         li {
             list-style-type: thumbs;
+        }
+        strong{
+            color: $tertiary-color;
         }
     }
     h1 {
@@ -31,6 +34,11 @@
     p{
         margin-bottom: 5px;
     }
+}
+
+code {
+    background-color: lightgrey;
+    font-weight: bold;
 }
 
 .markdown-content summary {
