@@ -30,5 +30,5 @@ module.exports = {
       implementation: require("sass"),
     }
   ],
-  pathPrefix: '/class-site',
+  pathPrefix: '/code-for-art-sp-21',
 };
